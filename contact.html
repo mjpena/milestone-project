@@ -2,23 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="styesheet" href="contactStyle.css" type="text/css">
     <title>Contact Page</title>
 </head>
-    <body bgcolor= "666699">
-        <img style="height: 37px;" src="/images/logo.svg"></img>
-        
-        <div id = "nav" class = "header" style="float: right; font-family: 'Raleway', sans-serif; font-weight: 800; font-size: 12px;
-            color: #B1AEDE; margin-left: 35px; margin-top: 12px;">
-            ABOUT US CONTANCT
+    <body style="background: #53507E;">
+        <div class="header" style="height: 7px; width: 1100px; margin-top: 30px; margin-bottom: 115px;">
+            <img id="logo" style="height: 37px;" src="/images/logo.svg"></img>
+            
+            <p class="Nav" style="float: right; font-family: 'Raleway', sans-serif; font-weight: 800; font-size: 12px; 
+                color: #B1AEDE; margin-left: 35px; margin-top: 12px;">
+                ABOUT US CONTACT</p>
         </div>
         
-        <div style = "background-color: white; width: 800px; height: 600 px;">
-            <h1>HOLD OUT A LITTLE LONGER</h1>
-            <p>Fill out the form below and we will send ou an email
-            with a simple liability form for you to sign. After that,
-            we ship you your free can of Kool-Aid, satisfaction gauranteed.
-            We've never heard a bad wor dform our wonderful customers,
-            becaase they already moved on to the afterlife!</p>
+        <div id="contactIntro" style="width: 750px; padding-top: 80px; padding-bottom: 80px; padding-right: 80px; padding-left: 80px;
+            margin-top: 0; margin-center: left; margin-center: right; margin-bottom: 90px; background: white; 
+            box-shadow: 0 0 10 0px rgba(255, 255, 255, .75);">
+            
+            <h1 style="font-family: 'Raleway', sans-serif; font-weight: 800; font-size: 24px; color: #FF8ED8;
+                margin-bottom: 35px;">HOLD OUT A LITTLE LONGER
+            </h1>
+            
+            <p style="font-family: 'Roboto Slab', serif; font-weight: 400; font-size: 18px; color: #5C5C5C; max-width: 480px;">
+                Fill out the form below and we will send you an email with a simple liability form for you to sign. After that, we 
+                ship you your free can of Kool-Aid, satisfaction guaranteed. We've never heard a bad word from our wonderful customers, 
+                because they already moved on to the afterlife!
+            </p>    
         </div>
+        
+        <div id="contactForm" style="width: 500px; margin: 0 auto;">
+            <form id="form" style="outline: none; border-bottom: 2 px solid white; height: 35px; background: none;
+                font-family: 'Roboto Slab', serif; font-weight: 700; font-size: 18px; color: white; padding-left: 0;
+                placeholder-text-color: #B1AEDE;">
+                
+                <input id="input1" style="width: 45%; float: left;" type="text" name="First Name"/>
+                <input id="input2" style="width: 45%; float: right;" type="text" name="Last Name"/>
+                <input id="input3" style="width: 99.2%;" type="text" name="Email Address"/>
+                <input id="input4" style="width: 99.2%;" type="text" name="Confirm Email Address"/>
+                
+            </form>
+            
+            <button class="Button" style="height: 60px; padding-top: 20px; padding-bottom: 20px; padding-right: 45px; padding-left: 45px;
+                border-radius: 30px; box-shadow: 0 0 30px rgba(255, 142, 216, 0.75); background: #FF8ED8; font-family: 'Raleway', sans-serif; 
+                font-weight: 800; font-size: 18px; color: white;"></button>
+            
+        </div>
+        
+        
+        <div id="footer" style="margin-top: 100px; height: 105px; background: #403D65;">
+            <div id="topRow" style="width: 1100px; height:34px; padding-top: 10px; padding-bottom: 10px;
+                padding-right: 0; padding-left: 0;">
+                <p id="bottomNav" style="font-family: 'Raleway', sans-serif; font-weight: 800; font-size: 12px; color: #B1AEDE;
+                    margin-right: 35px; margin-top: 10px;">HOME ABOUT CONTACT US</p>
+                <div class="Social" style="width: 34px; margin-left: 10px;">
+                    <img src="/images/instagram.svg"></img>
+                </div>
+            </div>
+            
+            <div id="bottomRow" style="height: 35px; margin-top: 15px; font-family: 'Roboto Slab', serif; font-weight: 600;
+                font-size: 12px; color: #B1AEDE; text-align: center;">
+                © ShaedyCult 2016
+            </div>
+        </div>
+        
     </body>
 </html>
